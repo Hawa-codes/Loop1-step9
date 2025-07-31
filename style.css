@@ -165,7 +165,9 @@ hr {
 .transaction-history {
     display: flex;
     flex-direction: row;
+    align-items: space-between;
     gap: 30px;
+    margin-bottom: 30px;
 }
 
 .minus-icon{
@@ -191,4 +193,20 @@ hr {
 .transaction {
     display: flex;
     flex-direction: column;
+}
+
+.transaction span {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+}
+.transaction p {
+    font-size: 12px;
+    color: #8e8e97;
+}
+
+.amount {
+    display: flex;
+    align-items: flex-end;
 }
