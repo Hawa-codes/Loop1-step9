@@ -161,3 +161,34 @@ hr {
     background-color: #e0e0e0;
     margin: 20px 0;
 }
+
+.transaction-history {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.minus-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.plus-icon{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+}
+
+.transaction {
+    display: flex;
+    flex-direction: column;
+}
