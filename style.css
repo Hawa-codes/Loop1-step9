@@ -42,8 +42,7 @@ body {
 }
 
 header {
-    font-size: 14px;
-    font-weight: bold;
+    font-size: 18px;
     margin-bottom: 20px;
     color: black;
     display: flex;
@@ -66,65 +65,99 @@ header {
 
 .visa {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     flex-direction: column;
     justify-content: center;
+    padding: 10px 15px; 
     width: 200px;
     height: 110px;
     background-color: #ffffff;
-    color: #968b85;
+    color: #727277;
     border-radius: 4px;
     margin-bottom: 10px;
     border: 1px solid #c9c1c1;
 }
 .visa img {
-    max-width: 50px;
+    max-width: 60px;
     height: auto;
-    margin-right: 10px;
 }
 
 .MasterCard {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    padding: 10px 15px; 
     width: 200px;
     height: 110px;
     background-color: #ffffff;
-    color: #968b85;
+    color: #727277;
     border-radius: 4px;
     margin-bottom: 10px;
     border: 2px solid #8793c6;
 }
+
 .MasterCard img {
-    max-width: 50px;
-    height: auto;
-    margin-right: 10px;
+    max-width: 60px;
+    height: auto; 
 }
 
 .Maestro {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+    padding: 10px 15px; 
     width: 200px;
     height: 110px;
     background-color: #ffffff;
-    color: #968b85;
+    color: #727277;
     border-radius: 4px;
     margin-bottom: 10px;
     border: 1px solid #c9c1c1;
 }
 .Maestro img {
-    max-width: 50px;
+    max-width: 60px;
     height: auto;
-    margin-right: 10px;
+}
+
+.visa span,
+.MasterCard span,
+.Maestro span {
+    font-size: 14px;
+}
+
+.visa p,
+.MasterCard p,
+.Maestro p {
+  font-size: 12px;
 }
 
 .right-panel {
     background-color: #ffffff;
+    color: black;
     padding: 30px;
     width: 65%;
     height: 100%;
     background-size: cover;
+}
+
+.right-panel header {
+    font-size: 18px;
+    margin-bottom: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right-panel header span {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-color: #e0e0e0;
+    margin: 20px 0;
 }
