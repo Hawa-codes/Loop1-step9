@@ -38,6 +38,7 @@ body {
     flex-direction: column;
     background-size: cover;
     background-position: center;
+    cursor: pointer;
 }
 
 header {
